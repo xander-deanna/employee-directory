@@ -1,12 +1,12 @@
 import './App.css';
 import Jumbotron from "./components/Jumbotron";
-import Table from "./components/Table";
+import CompleteTable from "./components/CompleteTable";
 
 function App() {
   return (
     <div className="App">
       <Jumbotron />
-      <Table />
+      <CompleteTable />
     </div>
   );
 }

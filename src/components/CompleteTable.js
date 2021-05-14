@@ -8,12 +8,12 @@ class RandomUserData extends Component {
     employees: []
   }
   componentDidMount() {
-    this.createDirectory();
+    this.createTable();
   }
 
   createTable = () => {
     API.getRandomUsers()
-      .then(res => this.setState({ employees: res.results }))
+      .then(res => this.setState({ employees: res.data.results }))
       .catch(err => console.log(err));
   };
 
