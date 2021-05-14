@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Web site created using create-react-app"/>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- icon -->
+    <link rel="apple-touch-icon" href="./logo192.png"/>
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon16x16.png"> 
+
+    <!-- webmanifest -->
+    <link rel="manifest" href="./manifest.json"/>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- font awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    
+    <!-- custom stylesheet -->
+    <link href="../src/index.css" rel="stylesheet">
+
+    <title>Employee Directory</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <!-- jumbotron and search example -->
+      <!-- <div class="jumbotron text-center">
+        <h1 class="display-4"><i class="fas fa-address-book"></i> Employee Directory</h1>
+        <p class="lead">Use the carrot icons to sort results by heading or use the search to filter results.</p>
+        <br>
+        <form class="form-inline justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0 d-none d-sm-block" type="submit">Search</button>
+        </form>
+      </div> -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <!-- data table example-->
+      <!-- <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Name <i class="fas fa-carrot"></i></th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">Date of Birth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Image Here</td>
+            <td>Mark Smith</td>
+            <td>666-666-6666</td>
+            <td>email@email.com</td>
+            <td>1/1/1800</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+    </div>
+
+    <!-- fontawesome icon for later use -->
+    <!-- <i class="fas fa-address-book"></i> -->
+
+    <!-- bootstrap script bundle -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
 </html>

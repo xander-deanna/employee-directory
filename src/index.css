@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-image: url('../src/utils/images/background-image10.gif'); 
+  background-size: 100px;
+  background-position: center;
+  background-repeat:repeat;
+}
+
+.jumbotron {
+  background-color: #000000;
+  color: #f0ffff;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
