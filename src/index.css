@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+a {
+  color: #17a2b8;
+}
+a:hover {
+  color: #38cde0;
+}
+
 body {
   background-image: url('../src/utils/images/background-image10.gif'); 
   background-size: 100px;
@@ -24,5 +31,16 @@ body {
   color: #f0ffff;
   margin-bottom: 0px;
   border-radius: 0px;
+  border: 0px, none;
   padding: 20px;
+  position: sticky;
+  top: 0pt;
+}
+
+.employeeIcon {
+  border: 1px solid #000000 !important;
+  border-radius: 90px;
+  margin: 5px;
+
+
 }

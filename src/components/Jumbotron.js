@@ -3,7 +3,7 @@ import Search from "./Search"
 
 function Jumbotron(props) {
   return (
-    <div className="jumbotron text-center sticky">
+    <div className="jumbotron text-center">
       <h1 className="display-4">
         <i className="fas fa-address-book"></i> Employee Directory
       </h1>
@@ -12,6 +12,7 @@ function Jumbotron(props) {
       <br></br>
       < Search />
     </div>
+
   );
 }
 
