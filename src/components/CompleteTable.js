@@ -27,4 +27,5 @@ class RandomUserData extends Component {
     </main>;
   }
 }
+
 export default RandomUserData;

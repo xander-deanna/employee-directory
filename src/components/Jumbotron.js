@@ -10,9 +10,8 @@ function Jumbotron(props) {
       <p className="lead">
         Use the carrot icon to sort names in ascending or descending order, or use the search to filter results.</p>
       <br></br>
-      < Search />
+      <Search />
     </div>
-
   );
 }
 
