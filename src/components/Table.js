@@ -1,4 +1,6 @@
 import React from "react";
+import TableData from "./TableData"
+
 
 function Table(props) {
     return (
@@ -12,15 +14,7 @@ function Table(props) {
                     <th scope="col">Date of Birth</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>Image Here</td>
-                    <td>Mark Smith</td>
-                    <td>666-666-6666</td>
-                    <td>email@email.com</td>
-                    <td>1/1/1800</td>
-                </tr>
-            </tbody>
+            <TableData />
         </table>
     );
 }
