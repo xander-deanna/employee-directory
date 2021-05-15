@@ -1,9 +1,14 @@
+// react imports
 import React from "react";
+
+// importing moment.js to handle DOB reformatting
 import Moment from "moment";
+
 
 function TableData(props) {
     return (
-        props.employees.map(employee => (
+        
+        props.employees.map(employee => (       
             <tr key={employee.id}>
                 <th scope="row"><img className="employeeIcon" alt={employee.name.first} src={employee.picture.thumbnail}/></th>
                 <td>{employee.name.last}, {employee.name.first}</td>
@@ -13,6 +18,6 @@ function TableData(props) {
             </tr>
         ))
     );
-}
+};
 
 export default TableData;

@@ -1,3 +1,4 @@
+/* default react styling */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,12 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+/* changes default link color to better fit the page */
 a {
   color: #17a2b8;
 }
@@ -19,13 +20,12 @@ a:hover {
   color: #38cde0;
 }
 
+/* change background color for entire page */
 body {
-  background-image: url('../src/utils/images/background-image10.gif'); 
-  background-size: 100px;
-  background-position: center;
-  background-repeat:repeat;
+  background-color: #000000;
 }
 
+/* changes color of jumbotron, and keeps jumbotron at top of page even while scrolling */
 .jumbotron {
   background-color: #000000;
   color: #f0ffff;
@@ -37,10 +37,8 @@ body {
   top: 0pt;
 }
 
+/* changes size and shape of employee icon */
 .employeeIcon {
   border: 1px solid #000000 !important;
   border-radius: 90px;
-  margin: 5px;
-
-
 }
