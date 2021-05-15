@@ -7,7 +7,6 @@ import Moment from "moment";
 
 function TableData(props) {
     return (
-        
         props.employees.map(employee => (       
             <tr key={employee.id}>
                 <th scope="row"><img className="employeeIcon" alt={employee.name.first} src={employee.picture.thumbnail}/></th>
